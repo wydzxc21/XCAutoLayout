@@ -13,7 +13,12 @@ import android.view.View;
 import com.xc.autolayout.view.AutoFrameLayout;
 import com.xc.autolayout.view.AutoLinearLayout;
 import com.xc.autolayout.view.AutoRelativeLayout;
-
+/**
+ * @author ZhangXuanChen
+ * @date 2017-11-1
+ * @package com.xc.autolayout
+ * @description Activity基类
+ */
 public class AutoLayoutActivity extends FragmentActivity {
 	private static final String LAYOUT_FRAMELAYOUT = "FrameLayout";
 	private static final String LAYOUT_LINEARLAYOUT = "LinearLayout";

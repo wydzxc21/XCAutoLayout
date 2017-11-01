@@ -10,7 +10,12 @@ import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 
 import com.xc.autolayout.util.XCAutoUtil;
-
+/**
+ * @author ZhangXuanChen
+ * @date 2017-11-1
+ * @package com.xc.autolayout
+ * @description BaseExpandableListAdapter基类
+ */
 public abstract class AutoLayoutExpandableAdapter extends BaseExpandableListAdapter {
 	public AutoLayoutExpandableAdapter() {
 	}

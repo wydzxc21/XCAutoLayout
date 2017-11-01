@@ -10,11 +10,19 @@ import com.xc.autolayout.config.AutoLayoutConifg;
 import android.view.View;
 import android.view.ViewGroup.LayoutParams;
 import android.view.ViewGroup.MarginLayoutParams;
-
+/**
+ * @author ZhangXuanChen
+ * @date 2017-11-1
+ * @package com.xc.autolayout.util
+ * @description 自动适配工具
+ */
 public class XCAutoUtil {
     public XCAutoUtil() {
     }
-
+    /**
+     * 自动适配
+     * @param view 适配view
+     */
     public static void auto(View view) {
         autoSize(view);
         autoPadding(view);

@@ -12,7 +12,12 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.xc.autolayout.util.XCAutoUtil;
-
+/**
+ * @author ZhangXuanChen
+ * @date 2017-11-1
+ * @package com.xc.autolayout
+ * @description Fragment基类
+ */
 public class AutoLayoutFragment extends Fragment {
 	public AutoLayoutFragment() {
 	}
